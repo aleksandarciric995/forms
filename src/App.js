@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Form from './components/Form';
+import Textarea from './components/Textarea';
+import Input from './components/Input';
+import Select from './components/Select';
+import Checkbox from "./components/Checkbox";
+import Forma from './components/vezba';
+import PersonWrapper from './components/PersonWrapper';
+import Formm from './components/vezbaSamostalno';
+import { Ponovo } from './components/ponovo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Form />
+      <Textarea />
+      <Input />
+      <Select />
+      <Checkbox /> */}
+      {/* <Forma /> */}
+      {/* <PersonWrapper /> */}
+      {/* <Formm /> */}
+      <Ponovo />
     </div>
   );
 }
